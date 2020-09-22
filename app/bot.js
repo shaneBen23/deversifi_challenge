@@ -127,7 +127,7 @@ async function updateMarketState() {
   const respData = resp.data;
   const orders = utils.transformData(respData);
 
-  // Assuming the response is in order of best BID to best ASK
+  // Assuming the response is in order of best BID at the top and best ASK at the bottom
   placeOrder(orders[0]);
   placeOrder(orders[orders.length -1]);
 }
