@@ -9,3 +9,6 @@ First install node modules by running
 
 Start the application by running
 `npm run start`
+
+Run tests
+`npm test`

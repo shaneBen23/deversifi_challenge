@@ -1,3 +1,3 @@
-const bot = require("./app/bot");
+const bot = require("./src/bot");
 
 bot.Init();

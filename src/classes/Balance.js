@@ -1,7 +1,7 @@
 class Balance {
   constructor(ETHBalance, USDBalance) {
-    this.ETHBalance = ETHBalance || 10.00;
-    this.USDBalance = USDBalance || 2000.00;
+    this.ETHBalance = ETHBalance;
+    this.USDBalance = USDBalance;
   }
 
   addUSD(amount) {
