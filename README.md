@@ -4,6 +4,8 @@
 
 ## Start application
 
+__Min Node version is `12.10.0`__
+
 First install node modules by running
 `npm i`
 
